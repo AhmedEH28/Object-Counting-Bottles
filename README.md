@@ -1,19 +1,17 @@
-# Object-Counting-Bottles
+## Object-Counting-Bottles
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+This project is about detecting, tracking and counting Juice, Water, and CocaCola bottles in videos using the YOLOv8 object detection model. 
 
-Welcome to the **Object-Counting-Bottles** project! This repository tracks and counts Juice, Water, and CocaCola bottles in videos using the YOLOv8 object detection model. It provides enhanced accuracy, error handling, confidence thresholds, and multiple counting zones.
-
-## Features
+### Features
 - Detects and tracks bottles in video files
 - Counts objects crossing a defined line (IN/OUT)
 - Visualizes bounding boxes, labels, and info panels
 - Outputs processed video and JSON results
 
-## Requirements
+### Requirements
 See `requirements.txt` for dependencies.
 
-## Setup
+###⚙️ Setup
 1. Clone this repository.
 2. Place your YOLOv8 model weights file (e.g., `best.pt`) in the project directory.
 3. Place your input video file (e.g., `video3.mp4`) in the project directory.
@@ -22,22 +20,26 @@ See `requirements.txt` for dependencies.
    pip install -r requirements.txt
    ```
 
-## Usage
+###🚀 Usage
 Run the main script:
 ```bash
 python run_main.py
 ```
 
-- Input video: `video3.mp4`
-- Output video: `video1R.mp4`
-- Results JSON: `counting_results.json`
-
-You can change these filenames in `run_main.py`.
-
-## Output
+### Output
 - Annotated video with bounding boxes and counts
 - JSON file with total counts per class
 
-## Notes
+![Sample Output](results/img2.png)
+
+### Notes
 - Requires a trained YOLOv8 model (`best.pt`).
-- Adjust the counting line and class names in `run_main.py` as needed. 
+- Adjust the counting line and class names in `run_main.py` as needed.
+
+### License
+
+[LICENSE](LICENSE) 
+
+### 🙏 Acknowledgments
+[Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
+
