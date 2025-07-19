@@ -1,0 +1,16 @@
+# Ignore video and model files
+*.mp4
+*.pt
+
+# Ignore result and output files
+counting_results.json
+result.png
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS files
+.DS_Store
+Thumbs.db 
