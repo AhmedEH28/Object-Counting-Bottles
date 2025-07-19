@@ -11,7 +11,7 @@ This project is about detecting, tracking and counting Juice, Water, and CocaCol
 ### Requirements
 See `requirements.txt` for dependencies.
 
-###⚙️ Setup
+### ⚙️ Setup
 1. Clone this repository.
 2. Place your YOLOv8 model weights file (e.g., `best.pt`) in the project directory.
 3. Place your input video file (e.g., `video3.mp4`) in the project directory.
@@ -20,7 +20,7 @@ See `requirements.txt` for dependencies.
    pip install -r requirements.txt
    ```
 
-###🚀 Usage
+### 🚀 Usage
 Run the main script:
 ```bash
 python run_main.py
