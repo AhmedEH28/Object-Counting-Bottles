@@ -36,10 +36,6 @@ python run_main.py
 - Requires a trained YOLOv8 model (`best.pt`).
 - Adjust the counting line and class names in `run_main.py` as needed.
 
-### License
-
-[LICENSE](LICENSE) 
-
 ### 🙏 Acknowledgments
 [Ultralytics YOLO](https://github.com/ultralytics/ultralytics)
 
